@@ -1,0 +1,12 @@
+*.json
+*.xml
+*.txt
+*.env
+*.vscode
+*.venv
+*.pytest_cache
+__pycache__
+*.png
+*.py
+No.*
+HTTP

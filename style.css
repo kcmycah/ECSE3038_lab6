@@ -1,0 +1,108 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap");
+* {
+  font-family: 'Ubuntu';
+}
+
+body {
+  margin: 0;
+  background-color: #FFFFFF;
+}
+
+body h1 {
+  margin-left: 15%;
+  font-size: 34px;
+  font-weight: 700;
+}
+
+body h3 {
+  font-size: 34px;
+  font-weight: 500;
+}
+
+body span {
+  font-size: 14px;
+  font-weight: 500;
+  background-color: #d1ad0a;
+}
+
+body .tankForm {
+  margin-left: 20%;
+  margin-right: 20%;
+  -webkit-box-shadow: 0 3px 19px 0 #000000;
+          box-shadow: 0 3px 29px 0 #000000;
+  border-radius: 10px;
+  background-color: lightpink;
+}
+
+body .tankForm:hover {
+  -webkit-box-shadow: 0 6px 18px 0 #000000;
+          box-shadow: 0 6px 18px 0 #000000;
+}
+
+body .tankForm .tankStuff {
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-weight: 400;
+  font-size: 14px;
+}
+
+body .tankForm .tankAction input {
+  border: none;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  outline: 0;
+  display: inline-block;
+  padding: 10px;
+  width: 100%;
+  background-color: #e1ffdd;
+  cursor: pointer;
+  text-align: center;
+  font-weight: 700;
+  font-size: 18px;
+  color: #f3d9d9;
+  opacity: 0.8;
+}
+
+body .tank-cards {
+  margin-left: 20%;
+  margin-right: 20%;
+  margin-bottom: 35px;
+  -webkit-box-shadow: 0 3px 9px 0 #000000;
+          box-shadow: 0 3px 9px 0 #000000;
+  border-radius: 30px;
+}
+
+body .tank-cards:hover {
+  -webkit-box-shadow: 0 6px 18px 0 #736357;
+          box-shadow: 0 6px 18px 0 #736357;
+}
+
+body .tank-cards .card-content {
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-weight: 400;
+  font-size: 14px;
+}
+
+body .tank-cards button {
+  border: none;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  outline: 0;
+  display: inline-block;
+  padding: 10px;
+  width: 100%;
+  background-color: #26f95b;
+  cursor: pointer;
+  text-align: center;
+  font-weight: 700;
+  font-size: 18px;
+  color: #FFFFFF;
+  opacity: 0.8;
+}
